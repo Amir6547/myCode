@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input in HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Input Types in HTML</h1>
+    </header>
+    <main>
+        <section id="description">
+            <dl>
+                <dt>form:</dt>
+                <dd>this element represents the beginning and end of your form in html</dd>
+                <dt>action:</dt>
+                <dd>the action attribute holds a value which is usually the URL (uniform resource locator) to the backend script which handles the form</dd>
+                <dt>method:</dt>
+                <dd>the method attrubute tells the form handler how to handle the form using the HTTP method described in the form.</dd>
+            </dl>
+        </section>
+        <section id="work">
+            <form action="" method="" >
+                <div>
+                    <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" required placeholder="Enter your full name" aria-placeholder="Enter your full name"/>
+                        
+                </div>
+                <br>
+                <div>
+                    <label for="usermail">Email:</label>
+                    <input type="email" id="usermail" required placeholder="Enter your email address" aria-placeholder="Enter your email address"/>
+                </div>
+                <br>
+                <div>
+                    <label for="user-password">Password:</label>
+                    <input type="password" id="user-password" required placeholder="Enter your password" aria-placeholder="Enter your password"/>
+                </div>
+                <br>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" min="4" max="12" value="4" aria-placeholder="Enter your age" >
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="hobbies">What are your favourite hobbies</label>
+                    <input type="checkbox" id="football" name="hobbies" value="football">
+                    <label for="football">Football<label>
+                    <input type="checkbox" id="movies" name="hobbies" value="movies">
+                    <label for="movies">Movies<label>
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading<label>
+                    <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+                    <label for="swimming">Swimming<label>
+                </div>
+            </form>
+             <br>
+             
+            <form action=""method="">
+                <div>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" required placeholder="Insert your Last Name"/>
+                </div>
+                 <br> 
+                <div>
+                    <label for="usermail">Email:</label>
+                    <input type="email" id="usermail" required placeholder="Insert your email address" aria-placeholder="Insert your email address"/>
+                </div>
+                <br>
+                <div>
+                    <label for="user-password">Password:</label>
+                    <input type="password" id="user-password" required placeholder="Insert your password" aria-placeholder="Insert your password"/>
+                </div>
+                <br>
+                <div> 
+                    <label for="height">Height (ft)</label>
+                    <input type="number" id="height" min="2.00" max="7.00" value="2.00" aria-placeholder="Insert your height"/>
+                </div>
+                <div>
+                    <label for="favourites">Do you have a favourite food?</label>
+                    <input type="radio" id="yes" name="favourites" value="yes" checked/>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="favourites" value="no"/>
+                    <label for="no">No</label>
+                    <input type="radio" id="maybe" name="favourites" value="maybe"/>
+                    <label for="maybe">Maybe</label>
+                </div>
+                <div>
+                    <label for="favourite-food">What are your favourite foods?</label>
+                    <input type="checkbox" id="normal-shawarma" name="favourite-food" value="normal-shawarma"/>
+                    <label for="normal-shawarma">Normal-sharwama</label>
+                    <input type="checkbox" id="shelby-sharwama" name="favourite-food" value="shelby-sharwama"/>
+                    <label for="shelby-sharwama">Shelby-sharwama</label>
+                    <input type="checkbox" id="snack-n-staxs" name="favourite-food" value="snack-n-staxs"/>
+                    <label for="snack-n-staxs">Snack-N-Staxs</label>          
+                </div>           
+            </form>
+        
+                
+        </section>
+    </main>
+    <footer>
+        <p>Designed by Amir & Aamira. &copy;2023 All rights reservered.</p>
+    </footer>
+</body>
+</html>
